@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjectScreens</string>
+    <string-array name="WeightUnit">
+        <item>kilogram(kg)</item>
+        <item>pounds(Lb)</item>
+    </string-array>
+    <string-array name="HeightUnit">
+        <item>Feet(Ft)</item>
+        <item>Centimeters(cm)</item>
+    </string-array>
+</resources>
