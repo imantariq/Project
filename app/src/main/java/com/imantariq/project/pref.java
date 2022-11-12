@@ -23,7 +23,7 @@ public class pref extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pref);
         b = findViewById(R.id.done);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,5 +117,4 @@ public class pref extends AppCompatActivity {
             }
         });
     }
-}
 }

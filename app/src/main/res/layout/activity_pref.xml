@@ -57,6 +57,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="450dp"
         android:layout_marginStart="-300dp">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -64,23 +65,26 @@
             android:text="Other Ingredients"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="400dp"
         android:layout_height="40dp"
         android:layout_marginStart="-300dp"
         android:layout_marginTop="550dp">
+
         <Button
             android:id="@+id/done"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="#8C3030"
             android:text="Register"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 
 </LinearLayout>
