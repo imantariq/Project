@@ -18,7 +18,7 @@ public class pref extends AppCompatActivity {
     Button b;
     boolean[] selectedLanguage;
     ArrayList<Integer> langList = new ArrayList<>();
-    String[] langArray = {"vegetarian", "Kotlin", "C", "Python", "Javascript"};
+    String[] langArray = {"Vegetarian", "Vegan", "Gluten-Free", "Low-Carb", "Healthy","High-Protein"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
