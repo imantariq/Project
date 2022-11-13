@@ -14,6 +14,12 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
+            android:name=".mealplans"
+            android:exported="true" />
+        <activity
+            android:name=".planner"
+            android:exported="true" />
+        <activity
             android:name=".nutrit"
             android:exported="true" />
         <activity
