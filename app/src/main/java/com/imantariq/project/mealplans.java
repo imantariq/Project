@@ -1,6 +1,7 @@
 package com.imantariq.project;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
@@ -8,20 +9,20 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-public class home extends AppCompatActivity {
+public class mealplans extends AppCompatActivity {
 
+    CardView cv;
     ImageView left;
-    TextView mealplan;
     DrawerLayout drwr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_mealplans);
+        cv=findViewById(R.id.meal1);
         left=findViewById(R.id.left);
         drwr=findViewById(R.id.drwr);
-        mealplan=findViewById(R.id.mealplanbt);
+
 
         left.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,13 +39,11 @@ public class home extends AppCompatActivity {
             }
         });
 
-
-        mealplan.setOnClickListener(new View.OnClickListener() {
+        cv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(home.this,mealplans.class);
+                Intent i=new Intent(mealplans.this,planner.class);
                 startActivity(i);
-
             }
         });
     }
