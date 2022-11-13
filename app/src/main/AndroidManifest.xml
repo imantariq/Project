@@ -14,11 +14,17 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
-            android:name=".planner"
-            android:exported="false" />
+            android:name=".nutrit"
+            android:exported="true" />
         <activity
-            android:name=".mealplans"
-            android:exported="false" />
+            android:name=".shopping"
+            android:exported="true" />
+        <activity
+            android:name=".recipedirection"
+            android:exported="true" />
+        <activity
+            android:name=".recipe"
+            android:exported="true" />
         <activity
             android:name=".profile"
             android:exported="true" />
