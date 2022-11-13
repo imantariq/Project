@@ -241,10 +241,10 @@
             </TextView>
 
             <TextView
-                android:id="@+id/editprof"
+                android:id="@+id/profile"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="Edit profile"
+                android:text="Profile"
                 android:textColor="@color/black"
                 android:layout_marginLeft="20dp"
                 android:textSize="20dp"
@@ -278,6 +278,8 @@
                 ></TextView>
 
             <TextView
+                android:id="@+id/shoplist"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="Shopping List"

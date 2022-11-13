@@ -28,6 +28,7 @@
         <activity
             android:name=".recipedirection"
             android:exported="true" />
+
         <activity
             android:name=".recipe"
             android:exported="true" />
