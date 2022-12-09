@@ -59,10 +59,11 @@
         android:layout_marginStart="-300dp">
 
         <EditText
+            android:id="@+id/other"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/white"
-            android:text="Other Ingredients"
+            android:hint="Other Ingredients"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="15dp"

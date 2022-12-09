@@ -27,10 +27,11 @@
             android:layout_height="40dp">
 
             <EditText
+                android:id="@+id/weight"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/white"
-                android:text="Enter Weight"
+                android:hint="Enter Weight"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20dp"
@@ -62,10 +63,11 @@
             android:layout_height="40dp">
 
             <EditText
+                android:id="@+id/height"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/white"
-                android:text="Enter Height"
+                android:hint="Enter Height"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20dp"
@@ -94,10 +96,11 @@
         android:layout_marginTop="340dp">
 
         <EditText
+            android:id="@+id/age"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/white"
-            android:text="Enter Age"
+            android:hint="Enter Age"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
@@ -110,10 +113,11 @@
         android:layout_marginTop="410dp">
 
         <EditText
+            android:id="@+id/goalweight"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/white"
-            android:text="Enter Current Weight"
+            android:hint="Enter Goal Weight"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
